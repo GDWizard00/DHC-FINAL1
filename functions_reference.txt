@@ -1,0 +1,57 @@
+# Dungeonites Heroes Challenge – Functions Reference
+
+> High-level overview of major modules / public APIs.  Internal helpers are omitted for brevity.
+
+## Core Handlers (`src/handlers/core`)
+
+| File | Export | Purpose |
+|------|--------|---------|
+| `StartMenuHandler.js` | `showStartMenu`, `handleStartMenuSelection` | Displays start menu, routes top-level selections |
+| `HeroSelectionHandler.js` | `showHeroSelection`, `handleHeroSelection`, `handleHeroConfirmation` | Hero pick & confirmation flow |
+| `DungeonEntranceHandler.js` | `showDungeonEntrance`, `handleDungeonEntranceSelection`, `handleLookAroundResult` | Hub after hero confirmation |
+| `FloorHandler.js` | `showFloor`, `handleFloorActionSelection` | Floor navigation & explore slots |
+| `ExplorationHandler.js` | `showExploration`, `handleExplorationResult` | Generates exploration outcomes |
+| `BattleHandler.js` | `startFloorBossBattle`, `startExploreBattle`, `showBattleScreen`, `handleBattleAction` | Turn-based simultaneous combat engine |
+| `ChestHandler.js` | `openChest`, `handleChestAction` | Treasure chest interactions |
+| `QuestHandler.js` | `ensureDailyQuests`, `showQuestMenu`, `claimRewards` | Daily quest lifecycle |
+| `DivisionHandler.js` | `showExchangeMenu`, `showWalletLoader` | Economy division exchange & wallet UI |
+
+## Inventory Handlers (`src/handlers/inventory`)
+
+| File | Key Functions |
+|------|--------------|
+| `InventoryHandler.js` | `showInventory`, `handleInventoryAction`, `addItemToInventory` |
+| `ShopHandler.js` | `showShop`, `handleShopAction`, `buyItem`, `sellItem` |
+
+## Utilities
+
+| File | Export | Description |
+|------|--------|-------------|
+| `utils/serviceRegistry.js` | `initializeServices`, `getServiceRegistry` | Global singleton registry for DB, state, web3 |
+| `utils/StateService.js` | `stateService` (singleton) | In-memory per-user GameState manager |
+| `utils/logger.js` | `logger` | Winston-based structured logger |
+| `utils/auditLogger.js` | `auditLogger` | Generic audit / event tracker (RULES audit removed) |
+| `utils/embedBuilder.js` | `build*Embed` helpers | Reusable embed factories |
+| `utils/Web3Manager.js` | `web3Manager` | EVM wallet & ERC-20 interface (stubs for now) |
+
+## Data Helpers
+
+| File | Purpose |
+|------|---------|
+| `data/abilitiesData.js` | Static list of abilities (id, name, manaCost, description) |
+| `data/effectsData.js` | Status effect metadata |
+| `data/heroesData.js` | Hero definitions with stats, unlockFloor, weapons, abilities |
+| `data/monstersData.js` | Monster definitions + helper `getMonsterForFloor()` |
+| `data/weaponsData.js` | Weapon definitions inc. type & base damage |
+
+## Database Layer
+
+| File | Export | Notes |
+|------|--------|-------|
+| `database/DatabaseManager.js` | `DatabaseManager` (singleton) | Connects to MongoDB, CRUD for players, gameStates, quests, transactions |
+
+## Command Router
+
+| File | Export | Description |
+|------|--------|-------------|
+| `commands/CommandHandler.js` | `CommandHandler` | Routes message & select-menu interactions to appropriate handlers. 

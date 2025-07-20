@@ -1,0 +1,148 @@
+# Dungeonites Heroes Challenge – Commands Reference
+
+## Prefix Commands
+
+| Command | Description |
+|---------|-------------|
+| `!ch` | Start a new game / resume existing session (primarily used within private threads) |
+| `!chsave` | Manually save current game state |
+| `!chload` | Load last saved game state |
+| `!help` | (Admin-only) display debug information (hidden from normal players) |
+
+## Slash Commands
+
+### Core System Commands
+| Command | Sub-command(s) | Purpose |
+|---------|----------------|---------|
+| `/profile` | `create`\|`update`\|`addwallet`\|`removewallet`\|`view`\|`wallet`\|`reset` | Manage player profile, EVM wallets & admin password resets |
+| `/auth` | - | Authenticate with your profile password (required for marketplace access) |
+| `/marketplace` | - | Access marketplace directly (requires profile and authentication) |
+
+### Admin Commands
+| Command | Sub-command(s) | Purpose |
+|---------|----------------|---------|
+| `/admin` | Various | Administrative tools for game management |
+| `/embed` | `game-hall`\|`marketplace`\|`casino` | Deploy permanent embed interfaces in channels |
+| `/master` | - | Bot Developer master authentication and control panel |
+| `/reset-master` | - | Reset Bot Developer master profile (emergency use) |
+| `/setup` | - | Server setup and configuration |
+
+### Quest System Commands
+| Command | Sub-command(s) | Purpose |
+|---------|----------------|---------|
+| `/quest` | - | View and manage available quests |
+| `/create-quest` | - | Create custom server quests (admin) |
+| `/manage-quest` | - | Manage existing quests (admin) |
+| `/quest-rewards` | - | Configure quest reward systems (admin) |
+
+## Permanent Embed Button Interactions
+
+### Game Hall Embed Buttons
+| Button | Custom-Id | Purpose |
+|--------|-----------|---------|
+| **Start Game** | `permanent_start_game` | Creates private thread and starts game session |
+| **View Profile** | `permanent_view_profile` | Display player profile and statistics |
+| **Tutorial** | `permanent_tutorial` | Show game tutorial and help |
+| **Daily Quests** | `permanent_quests` | Access daily and server quests |
+
+### Marketplace Embed Buttons
+| Button | Custom-Id | Purpose |
+|--------|-----------|---------|
+| **Store** | `permanent_store` | Access the main store (requires auth) |
+| **Player Market** | `permanent_player_market` | Player-to-player trading |
+| **Trading Post** | `permanent_trading_post` | Auction and bulk trading |
+| **My Chests** | `permanent_chests` | Manage purchased and earned chests |
+
+### Casino Embed Buttons
+| Button | Custom-Id | Purpose |
+|--------|-----------|---------|
+| **Coin Flip** | `permanent_coin_flip` | Heads/tails gambling game |
+| **Dice Games** | `permanent_dice_games` | Various dice-based gambling |
+| **Card Games** | `permanent_card_games` | Poker, blackjack, etc. |
+| **Leaderboard** | `permanent_casino_leaderboard` | Top gamblers and winnings |
+
+## Game Interaction Custom-IDs
+
+### Profile & Authentication
+| Custom-Id | Context |
+|-----------|---------|
+| `user_profile_create_begin` | Start profile creation process |
+| `user_profile_help` | Show profile creation help |
+| `master_setup_begin` | Bot Developer master setup |
+| `master_password_setup` | Master password configuration |
+| `master_auth_method` | Master authentication method selection |
+| `master_control_panel` | Master control panel actions |
+| `master_logout` | Logout from master session |
+
+### Core Game Menus
+| Custom-Id | Context |
+|-----------|---------|
+| `start_menu` | Main menu after game start |
+| `tutorial_menu` | Tutorial navigation |
+| `profile_menu` | In-game profile menu |
+| `leaderboard_menu` | Leaderboard navigation |
+| `division_selection` | Division selector (gold / tokens / dng / hero / eth) |
+| `hero_selection` | Hero pick screen |
+| `hero_confirmation` | Confirm hero choice |
+
+### Dungeon & Exploration
+| Custom-Id | Context |
+|-----------|---------|
+| `dungeon_entrance` | Entrance hub options |
+| `look_around_result` | Look-around outcome options |
+| `floor_actions` | Floor navigation & explore |
+| `exploration_result` | Explore outcome options |
+| `battle_actions` | Battle turn action picker |
+| `victory_menu` | Post-battle choices |
+| `death_menu` | Post-defeat choices |
+
+### Items & Trading
+| Custom-Id | Context |
+|-----------|---------|
+| `inventory_actions` | Inventory category picker |
+| `shop_actions` | Shop buy/sell picker |
+| `chest_actions` | Open chest / leave |
+| `exchange_menu` | Currency exchange options |
+
+### Quests & Social
+| Custom-Id | Context |
+|-----------|---------|
+| `quest_menu` | Daily quest list |
+| `wallet_action` | Wallet loader & deposit overview |
+
+## Authentication & Security
+
+### Profile System
+- All marketplace interactions require user profiles
+- Profiles require password + 2 of 3 recovery methods (X account, EVM wallet, email)
+- 1-hour authentication sessions after password entry
+- SHA-256 password hashing with secure storage
+
+### Master System
+- Bot Developer ultimate override controls
+- Emergency shutdown capabilities
+- Comprehensive audit logging
+- Multi-factor authentication for setup
+
+### Threading System
+- Private threads created for each player's game session
+- Thread reuse to prevent multiple sessions
+- Automatic thread management and cleanup
+- All game interactions contained within user's thread
+
+## Current Implementation Status
+
+✅ **Implemented & Active:**
+- Bot Developer master system with full authentication
+- User profile system with security profiles  
+- Permanent embed interfaces for Game Hall, Marketplace, Casino
+- Private threading system for game sessions
+- Profile-gated marketplace access with authentication
+- All core slash commands and button interactions
+
+🚧 **Coming Soon:**
+- Player market trading functionality
+- Casino games (coin flip, dice, cards)
+- Advanced quest rewards system
+- Profile statistics and achievements display
+- Trading post auction system 

@@ -1,0 +1,479 @@
+{"timestamp":"2025-07-17T01:09:17.189Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T01:09:17.189Z"}}
+{"timestamp":"2025-07-17T01:09:39.806Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T01:09:40.822Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T01:09:51.392Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T01:09:51.392Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T01:16:19.317Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T01:16:29.588Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T01:19:11.596Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T01:19:11.596Z"}}
+{"timestamp":"2025-07-17T01:19:12.056Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395213200655515841","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T01:31:27.033Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T01:31:27.085Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T01:31:37.135Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T01:31:37.135Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T02:07:52.853Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T02:07:54.534Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T02:07:58.947Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T02:07:58.947Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T02:08:07.048Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T02:08:07.048Z"}}
+{"timestamp":"2025-07-17T02:08:07.441Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395225524783157349","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T02:09:32.546Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T02:09:32.546Z"}}
+{"timestamp":"2025-07-17T02:12:26.324Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T02:16:25.106Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T02:16:25.153Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T02:16:29.638Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T02:16:29.638Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T02:17:04.227Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T02:17:04.227Z"}}
+{"timestamp":"2025-07-17T02:17:08.526Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T02:17:08.573Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T02:17:13.756Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T02:17:13.756Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T02:18:06.847Z","category":"USER_AUTH","message":"User gdwizard authenticated for casino","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"casino","timestamp":"2025-07-17T02:18:06.847Z"}}
+{"timestamp":"2025-07-17T02:19:30.398Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T02:19:30.398Z"}}
+{"timestamp":"2025-07-17T02:19:30.810Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395228390872711209","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T02:19:41.867Z","category":"USER_AUTH","message":"Auto-login successful for gdwizard","eventType":"auto_login_success","data":{"userId":"292854498299346945","profileType":"master","sessionAge":94938,"timestamp":"2025-07-17T02:19:41.867Z"}}
+{"timestamp":"2025-07-17T02:19:43.302Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T02:19:43.302Z"}}
+{"timestamp":"2025-07-17T02:50:10.012Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T02:50:10.063Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T02:50:14.661Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T02:50:14.661Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T02:59:17.033Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T02:59:17.033Z"}}
+{"timestamp":"2025-07-17T02:59:21.059Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T02:59:21.104Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T02:59:25.875Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T02:59:25.875Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T03:00:16.457Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T03:00:16.457Z"}}
+{"timestamp":"2025-07-17T03:00:16.867Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395238649360158762","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T03:00:26.802Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T03:00:26.802Z"}}
+{"timestamp":"2025-07-17T03:00:28.192Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T03:00:28.192Z"}}
+{"timestamp":"2025-07-17T03:16:51.226Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T03:16:51.226Z"}}
+{"timestamp":"2025-07-17T03:17:04.049Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T03:17:04.101Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T03:17:09.167Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T03:17:09.167Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T03:17:34.168Z","category":"USER_AUTH","message":"User gdwizard authenticated for casino","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"casino","timestamp":"2025-07-17T03:17:34.168Z"}}
+{"timestamp":"2025-07-17T03:19:11.677Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T03:19:15.833Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T03:19:35.476Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T03:19:35.476Z"}}
+{"timestamp":"2025-07-17T03:19:36.032Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395243511158145094","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T03:19:40.750Z","category":"USER_AUTH","message":"Auto-login successful for gdwizard","eventType":"auto_login_success","data":{"userId":"292854498299346945","profileType":"master","sessionAge":126320,"timestamp":"2025-07-17T03:19:40.750Z"}}
+{"timestamp":"2025-07-17T03:19:42.142Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T03:19:42.142Z"}}
+{"timestamp":"2025-07-17T03:19:50.623Z","category":"ERROR","message":"Interaction reply failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T03:37:54.685Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T03:37:54.685Z"}}
+{"timestamp":"2025-07-17T03:37:58.364Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T03:37:58.410Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T03:38:03.055Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T03:38:03.055Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T03:46:30.980Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T03:46:30.980Z"}}
+{"timestamp":"2025-07-17T03:46:31.333Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395250287173697646","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T03:46:40.209Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T03:46:40.209Z"}}
+{"timestamp":"2025-07-17T03:46:41.573Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T03:46:41.573Z"}}
+{"timestamp":"2025-07-17T03:59:46.250Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T03:59:46.250Z"}}
+{"timestamp":"2025-07-17T03:59:49.405Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T03:59:49.463Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T03:59:54.181Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T03:59:54.181Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T04:00:57.714Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T04:00:57.714Z"}}
+{"timestamp":"2025-07-17T04:00:58.106Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395253922012336251","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T04:01:09.058Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T04:01:09.058Z"}}
+{"timestamp":"2025-07-17T04:01:10.456Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T04:01:10.456Z"}}
+{"timestamp":"2025-07-17T04:19:27.921Z","category":"admin_auth_attempt","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_screen_shown"},"data":null}
+{"timestamp":"2025-07-17T04:19:34.364Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T05:24:31.788Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T05:24:31.788Z"}}
+{"timestamp":"2025-07-17T05:25:00.070Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T05:25:01.485Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T05:25:06.603Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T05:25:06.603Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T05:25:27.313Z","category":"ADMIN_PROFILE","message":"Server owner admin profile created","eventType":"profile_creation","data":{"userId":"1234032204011540480","guildId":"1234033631538708574","guildName":"The Wizards Mountain","recoveryMethods":["xAccount","evmWallet","email"],"timestamp":"2025-07-17T05:25:27.313Z"}}
+{"timestamp":"2025-07-17T05:25:36.449Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T05:25:43.198Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T05:46:31.797Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T05:46:31.797Z"}}
+{"timestamp":"2025-07-17T05:46:46.609Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T05:46:46.659Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T05:46:51.679Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T05:46:51.679Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T05:48:17.454Z","category":"admin_auth_attempt","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_screen_shown"},"data":null}
+{"timestamp":"2025-07-17T05:51:21.371Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T05:51:21.371Z"}}
+{"timestamp":"2025-07-17T05:51:27.415Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T05:51:27.459Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T05:51:32.446Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T05:51:32.446Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T05:51:42.442Z","category":"admin_auth_attempt","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_screen_shown"},"data":null}
+{"timestamp":"2025-07-17T05:51:48.867Z","category":"admin_auth_failure","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_failed"},"data":null}
+{"timestamp":"2025-07-17T05:53:32.245Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T05:53:32.340Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T05:53:37.509Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T05:53:37.509Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:11:00.595Z","category":"admin_auth_attempt","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_screen_shown"},"data":null}
+{"timestamp":"2025-07-17T06:11:07.748Z","category":"admin_auth_success","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_successful"},"data":null}
+{"timestamp":"2025-07-17T06:11:08.199Z","category":"admin_dashboard_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"dashboard_accessed"},"data":null}
+{"timestamp":"2025-07-17T06:11:22.588Z","category":"admin_tool_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"tool_accessed","tool":"admin_settings"},"data":null}
+{"timestamp":"2025-07-17T06:17:16.285Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T06:17:16.335Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T06:17:21.295Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T06:17:21.295Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:17:51.741Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T06:17:51.741Z"}}
+{"timestamp":"2025-07-17T06:17:54.953Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T06:17:54.997Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T06:17:59.834Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T06:17:59.834Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:25:26.685Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T06:25:26.734Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T06:25:31.925Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T06:25:31.925Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:40:50.636Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T06:40:50.686Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T06:40:55.606Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T06:40:55.606Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:44:38.533Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T06:44:38.583Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T06:44:43.386Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T06:44:43.386Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:45:25.441Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T06:45:25.441Z"}}
+{"timestamp":"2025-07-17T06:45:30.136Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T06:45:30.189Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T06:45:34.974Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T06:45:34.974Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T06:45:54.988Z","category":"ERROR","message":"Interaction already handled or invalid","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T06:46:26.033Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:00:37.977Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:00:38.024Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:00:42.996Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:00:42.996Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:01:57.759Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T07:01:57.759Z"}}
+{"timestamp":"2025-07-17T07:02:02.098Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:02:02.145Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:02:07.062Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:02:07.062Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:03:17.001Z","category":"ERROR","message":"Interaction already handled or invalid","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:05:05.238Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:05:33.994Z","category":"USER_PROFILE","message":"Profile creation prompt shown to dhwiz","eventType":"profile_prompt","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:05:33.994Z"}}
+{"timestamp":"2025-07-17T07:13:40.134Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:13:40.184Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:13:45.406Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:13:45.406Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:14:16.864Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T07:14:16.864Z"}}
+{"timestamp":"2025-07-17T07:14:20.278Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:14:20.342Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:14:25.389Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:14:25.389Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:14:38.692Z","category":"USER_PROFILE","message":"Profile creation prompt shown to dhwiz","eventType":"profile_prompt","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:14:38.692Z"}}
+{"timestamp":"2025-07-17T07:14:40.502Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:18:38.230Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:18:38.290Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:18:43.209Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:18:43.209Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:18:49.662Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T07:18:49.662Z"}}
+{"timestamp":"2025-07-17T07:18:55.190Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:18:55.248Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:18:58.148Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:18:58.199Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:19:00.178Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:19:00.178Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:19:03.071Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:19:03.071Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:19:37.734Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:19:58.501Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:20:03.146Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:20:38.414Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:22:24.491Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:23:09.563Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:23:25.661Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T07:23:25.742Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:26:51.935Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:26:51.989Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:26:57.022Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:26:57.022Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:28:48.757Z","category":"USER_AUTH","message":"Failed authentication attempt by dhwiz for casino","eventType":"auth_failed","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:28:48.757Z"}}
+{"timestamp":"2025-07-17T07:29:04.553Z","category":"USER_AUTH","message":"Failed authentication attempt by dhwiz for casino","eventType":"auth_failed","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:29:04.553Z"}}
+{"timestamp":"2025-07-17T07:29:17.008Z","category":"admin_auth_attempt","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_screen_shown"},"data":null}
+{"timestamp":"2025-07-17T07:30:24.615Z","category":"admin_auth_failure","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_failed"},"data":null}
+{"timestamp":"2025-07-17T07:30:37.862Z","category":"admin_auth_success","message":{"userId":"1234032204011540480","username":"dhwiz","action":"authentication_successful"},"data":null}
+{"timestamp":"2025-07-17T07:30:38.361Z","category":"admin_dashboard_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"dashboard_accessed"},"data":null}
+{"timestamp":"2025-07-17T07:30:46.978Z","category":"admin_tool_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"tool_accessed","tool":"admin_economy"},"data":null}
+{"timestamp":"2025-07-17T07:30:51.137Z","category":"admin_tool_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"tool_accessed","tool":"admin_events"},"data":null}
+{"timestamp":"2025-07-17T07:31:05.374Z","category":"admin_tool_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"tool_accessed","tool":"admin_settings"},"data":null}
+{"timestamp":"2025-07-17T07:31:09.987Z","category":"admin_tool_access","message":{"userId":"1234032204011540480","username":"dhwiz","action":"tool_accessed","tool":"admin_items"},"data":null}
+{"timestamp":"2025-07-17T07:31:10.572Z","category":"ADMIN_ACCESS","message":"Item management interface accessed by 1234032204011540480","eventType":"item_management","data":null}
+{"timestamp":"2025-07-17T07:33:18.630Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:33:25.780Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:35:09.165Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:35:14.170Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:36:36.679Z","category":"USER_AUTH","message":"Failed authentication attempt by dhwiz for casino","eventType":"auth_failed","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:36:36.679Z"}}
+{"timestamp":"2025-07-17T07:36:45.197Z","category":"USER_AUTH","message":"Failed authentication attempt by dhwiz for casino","eventType":"auth_failed","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:36:45.197Z"}}
+{"timestamp":"2025-07-17T07:36:55.969Z","category":"USER_AUTH","message":"Failed authentication attempt by dhwiz for casino","eventType":"auth_failed","data":{"userId":"1234032204011540480","source":"casino","timestamp":"2025-07-17T07:36:55.969Z"}}
+{"timestamp":"2025-07-17T07:42:02.053Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:42:02.141Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:42:07.189Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:42:07.189Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:42:38.025Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T07:42:38.025Z"}}
+{"timestamp":"2025-07-17T07:42:42.192Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:42:42.238Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:42:47.655Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:42:47.655Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:42:58.671Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:43:09.211Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:43:11.515Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:43:18.547Z","category":"USER_PROFILE","message":"Smart profile options shown to dhwiz (admin profile detected)","eventType":"smart_profile_prompt","data":{"userId":"1234032204011540480","profileType":"admin","source":"game","timestamp":"2025-07-17T07:43:18.547Z"}}
+{"timestamp":"2025-07-17T07:43:18.922Z","category":"THREAD_CREATED","message":"Game thread created for dhwiz","eventType":"thread_creation","data":{"userId":"1234032204011540480","threadId":"1395309878523986011","channelId":"1395304116443549730","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T07:43:21.431Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:43:23.483Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:45:20.759Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:45:54.460Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:45:57.066Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:46:04.159Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T07:46:44.529Z","category":"USER_AUTH","message":"User dhwiz authenticated for smart_login","eventType":"auth_success","data":{"userId":"1234032204011540480","profileType":"admin","source":"smart_login","timestamp":"2025-07-17T07:46:44.529Z"}}
+{"timestamp":"2025-07-17T07:46:45.940Z","category":"USER_AUTH","message":"Post-login game menu shown to dhwiz","eventType":"post_login_game_menu","data":{"userId":"1234032204011540480","profileType":"admin","isInThread":true,"timestamp":"2025-07-17T07:46:45.940Z"}}
+{"timestamp":"2025-07-17T07:50:17.998Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:50:18.049Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:50:22.786Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:50:22.786Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:51:47.239Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T07:51:47.239Z"}}
+{"timestamp":"2025-07-17T07:51:50.506Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T07:51:50.554Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T07:51:55.480Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T07:51:55.480Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T07:52:56.973Z","category":"USER_AUTH","message":"User dhwiz authenticated for casino","eventType":"auth_success","data":{"userId":"1234032204011540480","profileType":"admin","source":"casino","timestamp":"2025-07-17T07:52:56.973Z"}}
+{"timestamp":"2025-07-17T07:59:15.793Z","category":"USER_PROFILE","message":"Smart profile options shown to dhwiz (admin profile detected)","eventType":"smart_profile_prompt","data":{"userId":"1234032204011540480","profileType":"admin","source":"game","timestamp":"2025-07-17T07:59:15.793Z"}}
+{"timestamp":"2025-07-17T07:59:16.327Z","category":"THREAD_CREATED","message":"Game thread created for dhwiz","eventType":"thread_creation","data":{"userId":"1234032204011540480","threadId":"1395313892862988298","channelId":"1395304116443549730","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T07:59:38.206Z","category":"USER_AUTH","message":"Auto-login successful for dhwiz","eventType":"auto_login_success","data":{"userId":"1234032204011540480","profileType":"admin","sessionAge":401344,"timestamp":"2025-07-17T07:59:38.206Z"}}
+{"timestamp":"2025-07-17T07:59:39.678Z","category":"USER_AUTH","message":"Post-login game menu shown to dhwiz","eventType":"post_login_game_menu","data":{"userId":"1234032204011540480","profileType":"admin","isInThread":true,"timestamp":"2025-07-17T07:59:39.678Z"}}
+{"timestamp":"2025-07-17T08:06:09.145Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T08:06:09.192Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T08:06:14.383Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T08:06:14.383Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T08:14:58.303Z","category":"USER_AUTH","message":"User gdwizard authenticated for casino","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"casino","timestamp":"2025-07-17T08:14:58.303Z"}}
+{"timestamp":"2025-07-17T08:23:30.479Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T08:23:30.530Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T08:23:35.452Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T08:23:35.452Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T08:40:40.323Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T08:40:40.323Z"}}
+{"timestamp":"2025-07-17T08:40:44.939Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T08:40:44.996Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T08:40:50.079Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T08:40:50.079Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T08:41:42.770Z","category":"USER_PROFILE","message":"Profile creation prompt shown to .honeyb","eventType":"profile_prompt","data":{"userId":"916870869291262013","source":"game","timestamp":"2025-07-17T08:41:42.770Z"}}
+{"timestamp":"2025-07-17T08:41:43.230Z","category":"THREAD_CREATED","message":"Game thread created for .honeyb","eventType":"thread_creation","data":{"userId":"916870869291262013","threadId":"1395324572663808011","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T09:00:44.906Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:00:44.961Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:00:50.195Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:00:50.195Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:03:43.941Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T09:03:43.941Z"}}
+{"timestamp":"2025-07-17T09:04:10.556Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:04:10.611Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:04:15.570Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:04:15.570Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:05:06.855Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T09:05:06.855Z"}}
+{"timestamp":"2025-07-17T09:05:07.272Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395330464012570706","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T09:05:16.204Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T09:05:16.204Z"}}
+{"timestamp":"2025-07-17T09:05:17.588Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T09:05:17.588Z"}}
+{"timestamp":"2025-07-17T09:08:47.643Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:22:50.176Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:22:50.237Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:22:55.254Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:22:55.254Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:24:33.662Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T09:24:33.662Z"}}
+{"timestamp":"2025-07-17T09:24:34.017Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395335357830008914","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T09:24:45.176Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T09:24:45.176Z"}}
+{"timestamp":"2025-07-17T09:24:46.545Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T09:24:46.545Z"}}
+{"timestamp":"2025-07-17T09:27:10.942Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T09:27:10.942Z"}}
+{"timestamp":"2025-07-17T09:27:13.869Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:27:13.919Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:27:19.270Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:27:19.270Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:27:45.376Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T09:27:45.376Z"}}
+{"timestamp":"2025-07-17T09:27:45.851Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395336162322812948","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T09:27:54.154Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T09:27:54.154Z"}}
+{"timestamp":"2025-07-17T09:27:55.590Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T09:27:55.590Z"}}
+{"timestamp":"2025-07-17T09:30:16.965Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:30:49.912Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T09:30:53.149Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T09:31:32.499Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T09:31:44.723Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:38:11.305Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:38:11.361Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:38:16.296Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:38:16.296Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:38:41.422Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T09:38:41.422Z"}}
+{"timestamp":"2025-07-17T09:38:44.010Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:38:44.056Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:38:48.858Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:38:48.858Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:39:23.347Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T09:39:23.347Z"}}
+{"timestamp":"2025-07-17T09:39:23.775Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395339089942941796","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T09:39:37.662Z","category":"USER_AUTH","message":"User gdwizard authenticated for smart_login","eventType":"auth_success","data":{"userId":"292854498299346945","profileType":"master","source":"smart_login","timestamp":"2025-07-17T09:39:37.662Z"}}
+{"timestamp":"2025-07-17T09:39:39.112Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T09:39:39.112Z"}}
+{"timestamp":"2025-07-17T09:41:58.574Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:44:27.433Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:44:27.525Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:44:32.888Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:44:32.888Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:46:53.539Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T09:46:53.539Z"}}
+{"timestamp":"2025-07-17T09:46:59.117Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:46:59.170Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:47:04.370Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:47:04.370Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:47:36.033Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:47:38.495Z","category":"USER_PROFILE","message":"Smart profile options shown to gdwizard (master profile detected)","eventType":"smart_profile_prompt","data":{"userId":"292854498299346945","profileType":"master","source":"game","timestamp":"2025-07-17T09:47:38.495Z"}}
+{"timestamp":"2025-07-17T09:47:38.885Z","category":"THREAD_CREATED","message":"Game thread created for gdwizard","eventType":"thread_creation","data":{"userId":"292854498299346945","threadId":"1395341165959843922","channelId":"1395043637275922548","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T09:47:40.775Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:47:41.259Z","category":"USER_AUTH","message":"Auto-login successful for gdwizard","eventType":"auto_login_success","data":{"userId":"292854498299346945","profileType":"master","sessionAge":483634,"timestamp":"2025-07-17T09:47:41.259Z"}}
+{"timestamp":"2025-07-17T09:47:42.662Z","category":"USER_AUTH","message":"Post-login game menu shown to gdwizard","eventType":"post_login_game_menu","data":{"userId":"292854498299346945","profileType":"master","isInThread":true,"timestamp":"2025-07-17T09:47:42.662Z"}}
+{"timestamp":"2025-07-17T09:47:47.755Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T09:49:27.941Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T09:49:27.941Z"}}
+{"timestamp":"2025-07-17T09:49:33.295Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:49:33.348Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:49:38.475Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:49:38.475Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T09:52:29.795Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T09:52:29.795Z"}}
+{"timestamp":"2025-07-17T09:54:28.667Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T09:54:28.725Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T09:54:33.866Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T09:54:33.866Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T10:02:03.264Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T10:02:03.314Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T10:02:08.559Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T10:02:08.559Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T10:34:28.785Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T10:34:28.785Z"}}
+{"timestamp":"2025-07-17T10:34:32.837Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T10:34:32.901Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T10:34:37.935Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T10:34:37.935Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T10:47:39.958Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T10:47:40.043Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T10:47:45.246Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T10:47:45.246Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T10:48:34.695Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T10:48:34.695Z"}}
+{"timestamp":"2025-07-17T10:49:13.425Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T10:49:13.470Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T10:49:18.647Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T10:49:18.647Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T10:53:55.136Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T10:53:55.189Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T10:54:00.111Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T10:54:00.111Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:01:43.626Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T11:01:43.626Z"}}
+{"timestamp":"2025-07-17T11:01:46.508Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:01:46.557Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:01:51.773Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:01:51.773Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:05:48.015Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:05:48.065Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:05:53.099Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:05:53.099Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:16:49.177Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T11:16:49.177Z"}}
+{"timestamp":"2025-07-17T11:16:53.378Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:16:53.433Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:16:58.463Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:16:58.463Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:25:44.076Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:25:44.125Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:25:49.706Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:25:49.706Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:27:32.407Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T11:27:32.407Z"}}
+{"timestamp":"2025-07-17T11:27:35.560Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:27:35.608Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:27:40.524Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:27:40.524Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:43:33.755Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T11:43:33.755Z"}}
+{"timestamp":"2025-07-17T11:43:37.055Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:43:37.104Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:43:42.146Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:43:42.146Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:50:25.928Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T11:50:25.928Z"}}
+{"timestamp":"2025-07-17T11:54:29.666Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T11:54:29.732Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T11:54:34.820Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T11:54:34.820Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T11:55:18.627Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T11:55:18.627Z"}}
+{"timestamp":"2025-07-17T12:10:39.683Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T12:10:39.837Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T12:10:45.060Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T12:10:45.060Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T12:14:30.802Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T12:14:30.802Z"}}
+{"timestamp":"2025-07-17T12:14:34.557Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T12:14:34.624Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T12:14:39.458Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T12:14:39.458Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T12:15:30.310Z","category":"MASTER_LOGOUT","message":"Bot Developer session ended","eventType":"logout","data":{"userId":"292854498299346945","timestamp":"2025-07-17T12:15:30.310Z"}}
+{"timestamp":"2025-07-17T12:19:28.717Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T12:19:28.769Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T12:19:32.074Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T12:19:32.074Z"}}
+{"timestamp":"2025-07-17T12:19:33.726Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T12:19:33.726Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T12:25:16.163Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:25:53.168Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:26:07.363Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:26:12.228Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:30:54.488Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T12:30:54.488Z"}}
+{"timestamp":"2025-07-17T12:31:19.775Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T12:31:19.841Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T12:31:24.651Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T12:31:24.651Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T12:32:20.986Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:34:42.764Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:37:35.553Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T12:37:35.553Z"}}
+{"timestamp":"2025-07-17T12:37:39.054Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T12:37:39.106Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T12:37:44.101Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T12:37:44.101Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T12:38:49.339Z","category":"MASTER_PASSWORD_CHANGE","message":"Master password changed successfully","eventType":"password_change","data":{"userId":"292854498299346945","timestamp":"2025-07-17T12:38:49.339Z"}}
+{"timestamp":"2025-07-17T12:44:24.659Z","category":"ADMIN_PROFILE","message":"Server owner admin profile created","eventType":"profile_creation","data":{"userId":"928113978536759357","guildId":"928114785474736200","guildName":"flashatk90's server","recoveryMethods":["xAccount","evmWallet","email"],"timestamp":"2025-07-17T12:44:24.659Z"}}
+{"timestamp":"2025-07-17T12:47:16.381Z","category":"USER_PROFILE","message":"Smart profile options shown to flashatk90 (admin profile detected)","eventType":"smart_profile_prompt","data":{"userId":"928113978536759357","profileType":"admin","source":"game","timestamp":"2025-07-17T12:47:16.381Z"}}
+{"timestamp":"2025-07-17T12:47:16.827Z","category":"THREAD_CREATED","message":"Game thread created for flashatk90","eventType":"thread_creation","data":{"userId":"928113978536759357","threadId":"1395386373481042012","channelId":"1395386117905318021","archivedOldThreads":false}}
+{"timestamp":"2025-07-17T12:48:01.154Z","category":"USER_AUTH","message":"User flashatk90 authenticated for smart_login","eventType":"auth_success","data":{"userId":"928113978536759357","profileType":"admin","source":"smart_login","timestamp":"2025-07-17T12:48:01.154Z"}}
+{"timestamp":"2025-07-17T12:48:02.770Z","category":"USER_AUTH","message":"Post-login game menu shown to flashatk90","eventType":"post_login_game_menu","data":{"userId":"928113978536759357","profileType":"admin","isInThread":true,"timestamp":"2025-07-17T12:48:02.770Z"}}
+{"timestamp":"2025-07-17T12:51:14.354Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T12:51:21.467Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T12:53:19.948Z","category":"MASTER_SECURITY_UPDATE","message":"Security profile updated","eventType":"security_update","data":{"userId":"292854498299346945","recoveryMethodsCount":3,"timestamp":"2025-07-17T12:53:19.948Z"}}
+{"timestamp":"2025-07-17T12:53:50.579Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T12:54:31.528Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T13:17:45.631Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T13:17:45.738Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T13:17:50.447Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T13:17:50.447Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T13:25:14.733Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T13:50:53.092Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T13:50:54.235Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T13:50:59.343Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T13:50:59.343Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T13:51:35.672Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T13:51:35.672Z"}}
+{"timestamp":"2025-07-17T13:51:41.586Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T13:51:41.641Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T13:51:46.349Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T13:51:46.349Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T13:58:27.460Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T13:58:27.527Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T13:58:32.387Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T13:58:32.387Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T13:59:59.570Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T13:59:59.616Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T14:00:04.744Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T14:00:04.744Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T14:00:43.190Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T14:00:57.955Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T14:07:57.396Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T14:07:57.562Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T14:08:02.545Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T14:08:02.545Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T14:32:25.545Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T14:32:25.640Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T14:32:30.361Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T14:32:30.361Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T14:38:06.265Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T14:39:01.134Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T14:50:37.904Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T14:50:37.904Z"}}
+{"timestamp":"2025-07-17T14:51:03.803Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T14:51:05.192Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T14:51:10.170Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T14:51:10.170Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T14:53:06.164Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T14:53:16.440Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:08:25.308Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T15:08:25.307Z"}}
+{"timestamp":"2025-07-17T15:08:31.980Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T15:08:32.027Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T15:08:37.122Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T15:08:37.122Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T15:09:44.754Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:14:13.206Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:14:18.605Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:14:32.467Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:14:32.531Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:14:36.171Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:14:36.231Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:14:44.888Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:14:45.776Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:14:47.640Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:14:48.476Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:14:56.488Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:15:03.799Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:15:07.183Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:15:07.274Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:15:12.159Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:15:12.167Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:25:30.423Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:25:31.310Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:25:43.544Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:25:52.438Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:25:57.884Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:29:50.253Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T15:29:50.253Z"}}
+{"timestamp":"2025-07-17T15:29:53.516Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T15:29:53.569Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T15:29:59.474Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T15:29:59.474Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T15:30:35.530Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:30:40.196Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:30:48.133Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:31:03.878Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:31:03.949Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:31:12.386Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:31:12.386Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:31:15.669Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:31:15.722Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T15:34:30.430Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:36:04.919Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T15:41:51.030Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T15:41:51.030Z"}}
+{"timestamp":"2025-07-17T15:41:55.660Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T15:41:55.705Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T15:42:00.860Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T15:42:00.860Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T16:10:37.463Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T16:10:37.463Z"}}
+{"timestamp":"2025-07-17T16:10:40.051Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T16:10:40.098Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T16:10:45.335Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T16:10:45.335Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T16:11:57.940Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T16:11:58.011Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T22:48:36.723Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T22:48:36.722Z"}}
+{"timestamp":"2025-07-17T22:49:04.180Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T22:49:05.155Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T22:49:10.426Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T22:49:10.426Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T22:50:24.430Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T23:01:07.377Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T23:01:07.377Z"}}
+{"timestamp":"2025-07-17T23:01:10.111Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T23:01:10.174Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T23:01:16.202Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T23:01:16.202Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T23:01:38.905Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T23:01:38.905Z"}}
+{"timestamp":"2025-07-17T23:01:42.417Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T23:01:42.463Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T23:01:47.082Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T23:01:47.082Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T23:03:54.343Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T23:08:15.007Z","category":"SYSTEM","message":"Thread management system shutdown","eventType":"thread_manager_shutdown","data":{"timestamp":"2025-07-17T23:08:15.007Z"}}
+{"timestamp":"2025-07-17T23:08:20.091Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T23:08:20.141Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T23:08:24.930Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T23:08:24.930Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T23:08:55.046Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T23:09:15.904Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-17T23:11:18.915Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T23:11:18.971Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T23:11:23.865Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T23:11:23.865Z","cleanupInterval":"5 minutes"}}
+{"timestamp":"2025-07-17T23:12:33.553Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-17T23:18:43.309Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-17T23:18:43.366Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-17T23:18:48.115Z","category":"SYSTEM","message":"Thread management system initialized","eventType":"thread_manager_init","data":{"timestamp":"2025-07-17T23:18:48.115Z","cleanupInterval":"5 minutes"}}

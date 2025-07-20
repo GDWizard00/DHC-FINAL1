@@ -1,0 +1,37 @@
+{
+  "name": "dungeonites-heroes-challenge",
+  "version": "1.0.0",
+  "description": "A comprehensive Discord RPG bot with turn-based combat and tokenomics",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "rpg",
+    "game",
+    "tokenomics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "mongodb": "^6.3.0",
+    "web3": "^4.3.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

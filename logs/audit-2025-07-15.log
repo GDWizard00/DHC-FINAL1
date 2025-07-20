@@ -1,0 +1,15 @@
+{"timestamp":"2025-07-15T01:10:30.024Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-15T01:10:31.507Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-15T01:10:52.878Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-15T01:10:52.879Z","category":"GAME_STATE","message":"Creating new game state for user 292854498299346945","eventType":"new_game","data":null}
+{"timestamp":"2025-07-15T01:10:53.460Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-15T07:51:00.419Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-15T07:51:16.975Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-15T07:51:40.169Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-15T07:51:52.288Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-15T10:43:50.524Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-15T10:43:50.534Z","category":"GAME_STATE","message":"Creating new game state for user 292854498299346945","eventType":"new_game","data":null}
+{"timestamp":"2025-07-15T10:43:53.518Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-15T10:46:30.747Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-15T10:46:42.970Z","category":"SUCCESS","message":"Interaction update successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-15T10:46:52.506Z","category":"ERROR","message":"Interaction update failed: Unknown interaction","eventType":"interaction_error","data":null}

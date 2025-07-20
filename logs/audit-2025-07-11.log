@@ -1,0 +1,99 @@
+{"timestamp":"2025-07-11T09:38:40.464Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-11T09:38:41.898Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-11T09:38:51.351Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T09:38:51.353Z","category":"GAME_STATE","message":"Creating new game state for user 292854498299346945","eventType":"new_game","data":null}
+{"timestamp":"2025-07-11T09:38:54.925Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T09:38:56.985Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:39:00.449Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:39:07.033Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:44:27.745Z","category":"INTERACTION","message":"User 292854498299346945 selected look_around from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:44:32.726Z","category":"INTERACTION","message":"User 292854498299346945 selected return_to_entrance from look_around_result","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:44:41.504Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:44:45.808Z","category":"INTERACTION","message":"User 292854498299346945 selected return_to_entrance from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:44:49.304Z","category":"INTERACTION","message":"User 292854498299346945 selected store from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:45:31.560Z","category":"INTERACTION","message":"User 292854498299346945 selected return_to_entrance from shop_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:45:31.561Z","category":"ERROR","message":"Error handling interaction shop_actions: ShopHandler.handleShopAction is not a function","eventType":"interaction_handler_error","data":null}
+{"timestamp":"2025-07-11T09:45:32.028Z","category":"SUCCESS","message":"Interaction reply successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-11T09:49:07.508Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T09:49:07.509Z","category":"GAME_STATE","message":"Resuming existing game for user 292854498299346945","eventType":"resume_game","data":null}
+{"timestamp":"2025-07-11T09:49:08.129Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T09:49:10.926Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:49:15.527Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:49:18.897Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:49:26.358Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:49:30.371Z","category":"INTERACTION","message":"User 292854498299346945 selected stairs from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:50:21.125Z","category":"INTERACTION","message":"User 292854498299346945 selected weapon_hammer from battle_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:54:39.261Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T09:54:39.263Z","category":"GAME_STATE","message":"Resuming existing game for user 292854498299346945","eventType":"resume_game","data":null}
+{"timestamp":"2025-07-11T09:54:39.894Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T09:54:42.986Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:54:45.646Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:54:48.126Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:54:51.306Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:54:54.723Z","category":"INTERACTION","message":"User 292854498299346945 selected stairs from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T09:54:58.426Z","category":"INTERACTION","message":"User 292854498299346945 selected weapon_sword from battle_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:08:59.553Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-11T10:08:59.604Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-11T10:09:16.822Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T10:09:16.823Z","category":"GAME_STATE","message":"Creating new game state for user 292854498299346945","eventType":"new_game","data":null}
+{"timestamp":"2025-07-11T10:09:17.393Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T10:09:20.444Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:09:23.370Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:09:27.715Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:09:32.218Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:09:34.959Z","category":"INTERACTION","message":"User 292854498299346945 selected stairs from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:11:12.552Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T10:11:12.553Z","category":"GAME_STATE","message":"Resuming existing game for user 292854498299346945","eventType":"resume_game","data":null}
+{"timestamp":"2025-07-11T10:11:13.025Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T10:11:15.844Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:11:18.177Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:11:20.474Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:11:48.631Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:11:56.145Z","category":"INTERACTION","message":"User 292854498299346945 selected return_to_entrance from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:12:00.333Z","category":"INTERACTION","message":"User 292854498299346945 selected store from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:12:12.845Z","category":"INTERACTION","message":"User 292854498299346945 selected shop_gold from shop_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:12:12.847Z","category":"ERROR","message":"Error handling interaction shop_actions: selectedValue.startsWith is not a function","eventType":"interaction_handler_error","data":null}
+{"timestamp":"2025-07-11T10:12:13.302Z","category":"SUCCESS","message":"Interaction reply successful","eventType":"interaction_response","data":null}
+{"timestamp":"2025-07-11T10:33:55.669Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-11T10:33:55.730Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-11T10:35:16.584Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T10:35:16.586Z","category":"GAME_STATE","message":"Resuming existing game for user 292854498299346945","eventType":"resume_game","data":null}
+{"timestamp":"2025-07-11T10:35:16.595Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T10:35:16.596Z","category":"GAME_STATE","message":"Creating new game state for user 292854498299346945","eventType":"new_game","data":null}
+{"timestamp":"2025-07-11T10:35:17.337Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T10:35:17.551Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T10:35:20.201Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:20.202Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:21.193Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:35:24.216Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:24.216Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:25.534Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:35:28.201Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:28.201Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:29.532Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:35:32.479Z","category":"INTERACTION","message":"User 292854498299346945 selected look_around from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:32.479Z","category":"INTERACTION","message":"User 292854498299346945 selected look_around from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:33.418Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:35:35.693Z","category":"INTERACTION","message":"User 292854498299346945 selected return_to_entrance from look_around_result","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:35.701Z","category":"INTERACTION","message":"User 292854498299346945 selected return_to_entrance from look_around_result","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:36.625Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:35:38.662Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:38.662Z","category":"INTERACTION","message":"User 292854498299346945 selected enter_dungeon from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:39.862Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:35:41.611Z","category":"INTERACTION","message":"User 292854498299346945 selected stairs from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:41.620Z","category":"INTERACTION","message":"User 292854498299346945 selected stairs from floor_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:35:42.552Z","category":"ERROR","message":"Interaction update failed: Interaction has already been acknowledged.","eventType":"interaction_error","data":null}
+{"timestamp":"2025-07-11T10:42:56.047Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T10:42:56.055Z","category":"GAME_STATE","message":"Resuming existing game for user 292854498299346945","eventType":"resume_game","data":null}
+{"timestamp":"2025-07-11T10:42:56.707Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
+{"timestamp":"2025-07-11T10:43:01.569Z","category":"INTERACTION","message":"User 292854498299346945 selected start_game from start_menu","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:43:04.960Z","category":"INTERACTION","message":"User 292854498299346945 selected gold from division_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:43:08.035Z","category":"INTERACTION","message":"User 292854498299346945 selected grim_stonebeard from hero_selection","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:43:10.400Z","category":"INTERACTION","message":"User 292854498299346945 selected confirm from hero_confirmation","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:43:15.300Z","category":"INTERACTION","message":"User 292854498299346945 selected inventory from dungeon_entrance","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:43:20.910Z","category":"INTERACTION","message":"User 292854498299346945 selected return from inventory_actions","eventType":"interaction_received","data":null}
+{"timestamp":"2025-07-11T10:44:42.847Z","category":"AUDIT:RULES","message":"RULES.txt loaded successfully","eventType":"rules_loaded","data":null}
+{"timestamp":"2025-07-11T10:44:42.904Z","category":"AUDIT:SYSTEM","message":"Audit logger initialized successfully","eventType":"system_init","data":null}
+{"timestamp":"2025-07-11T10:44:52.612Z","category":"COMMAND","message":"User 292854498299346945 (gdwizard) used !ch command","eventType":"start_game","data":null}
+{"timestamp":"2025-07-11T10:44:52.614Z","category":"GAME_STATE","message":"Creating new game state for user 292854498299346945","eventType":"new_game","data":null}
+{"timestamp":"2025-07-11T10:44:53.888Z","category":"SCREEN","message":"Start menu displayed for user 292854498299346945","eventType":"start_menu","data":null}
