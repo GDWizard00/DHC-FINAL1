@@ -1913,6 +1913,52 @@ export class CommandHandler {
                     }
                     break;
 
+                // Enhanced Item Browser handlers - COMPREHENSIVE ROUTING FIX
+                case 'streamlined_item_category':
+                    try {
+                        const { BotDeveloperHandler } = await import('../handlers/admin/BotDeveloperHandler.js');
+                        await BotDeveloperHandler.handleItemCategorySelection(interaction, validatedValue);
+                    } catch (error) {
+                        logger.error('Error handling streamlined item category:', error);
+                        await this.safeInteractionResponse(interaction, 'An error occurred. Please try again.');
+                    }
+                    break;
+
+                case 'enhanced_item_browser_weapons':
+                case 'enhanced_item_browser_armor':
+                case 'enhanced_item_browser_consumables':
+                case 'enhanced_item_browser_promotional':
+                case 'enhanced_item_browser_special':
+                case 'enhanced_item_browser_currency':
+                    try {
+                        const { BotDeveloperHandler } = await import('../handlers/admin/BotDeveloperHandler.js');
+                        await BotDeveloperHandler.handleEnhancedItemBrowserSelection(interaction, validatedValue);
+                    } catch (error) {
+                        logger.error('Error handling enhanced item browser:', error);
+                        await this.safeInteractionResponse(interaction, 'An error occurred. Please try again.');
+                    }
+                    break;
+
+                case 'send_list_management':
+                    try {
+                        const { BotDeveloperHandler } = await import('../handlers/admin/BotDeveloperHandler.js');
+                        await BotDeveloperHandler.handleSendListManagement(interaction, validatedValue);
+                    } catch (error) {
+                        logger.error('Error handling send list management:', error);
+                        await this.safeInteractionResponse(interaction, 'An error occurred. Please try again.');
+                    }
+                    break;
+
+                case 'player_selection_for_removal':
+                    try {
+                        const { BotDeveloperHandler } = await import('../handlers/admin/BotDeveloperHandler.js');
+                        await BotDeveloperHandler.handlePlayerSelectionForRemoval(interaction, validatedValue);
+                    } catch (error) {
+                        logger.error('Error handling player selection for removal:', error);
+                        await this.safeInteractionResponse(interaction, 'An error occurred. Please try again.');
+                    }
+                    break;
+
                 // Master Economy Tools handlers
                 case 'master_economy_tools':
                     try {
@@ -2365,6 +2411,27 @@ export class CommandHandler {
                     } catch (error) {
                         logger.error('Error handling promo weapon grant submission:', error);
                         await this.safeInteractionResponse(interaction, 'An error occurred processing promotional weapon grant.');
+                    }
+                    break;
+
+                // Enhanced Item Browser Modal Handlers - COMPREHENSIVE FIX
+                case 'amount_selection_modal':
+                    try {
+                        const { BotDeveloperHandler } = await import('../handlers/admin/BotDeveloperHandler.js');
+                        await BotDeveloperHandler.handleAmountSelectionModal(interaction);
+                    } catch (error) {
+                        logger.error('Error handling amount selection modal:', error);
+                        await this.safeInteractionResponse(interaction, 'An error occurred processing amount selection.');
+                    }
+                    break;
+
+                case 'send_list_modal':
+                    try {
+                        const { BotDeveloperHandler } = await import('../handlers/admin/BotDeveloperHandler.js');
+                        await BotDeveloperHandler.handleSendListModal(interaction);
+                    } catch (error) {
+                        logger.error('Error handling send list modal:', error);
+                        await this.safeInteractionResponse(interaction, 'An error occurred processing send list.');
                     }
                     break;
                     

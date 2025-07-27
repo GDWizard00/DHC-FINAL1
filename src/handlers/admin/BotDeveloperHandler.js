@@ -5771,4 +5771,512 @@ export class BotDeveloperHandler {
             throw error;
         }
     }
+
+    // ============================================================================
+    // COMPREHENSIVE ITEM BROWSER & REMOVAL SYSTEM - HIGHWAY GRADE IMPLEMENTATION
+    // ============================================================================
+
+    /**
+     * Handle Enhanced Item Browser Selection - COMPREHENSIVE ROUTING FIX
+     */
+    static async handleEnhancedItemBrowserSelection(interaction, selectedValue) {
+        try {
+            if (!this.isAuthenticated(interaction.user.id)) {
+                await this.showMasterAuthentication(interaction);
+                return;
+            }
+
+            if (selectedValue.startsWith('add_to_sendlist_')) {
+                // Extract item category and ID from the selectedValue
+                const parts = selectedValue.replace('add_to_sendlist_', '').split('_');
+                const category = parts[0];
+                const itemId = parts.slice(1).join('_');
+                
+                await this.showAmountSelectionModal(interaction, category, itemId);
+            } else if (selectedValue === 'back_to_item_categories') {
+                await this.showStreamlinedItemOperations(interaction);
+            } else if (selectedValue === 'view_send_list') {
+                await this.showSendListManagement(interaction);
+            } else if (selectedValue.startsWith('page_')) {
+                // Handle pagination
+                const pageNum = parseInt(selectedValue.replace('page_', ''));
+                const currentCategory = interaction.message.embeds[0]?.title?.toLowerCase().includes('weapons') ? 'weapons' :
+                                       interaction.message.embeds[0]?.title?.toLowerCase().includes('armor') ? 'armor' :
+                                       interaction.message.embeds[0]?.title?.toLowerCase().includes('consumables') ? 'consumables' :
+                                       interaction.message.embeds[0]?.title?.toLowerCase().includes('promotional') ? 'promotional' :
+                                       interaction.message.embeds[0]?.title?.toLowerCase().includes('special') ? 'special' :
+                                       interaction.message.embeds[0]?.title?.toLowerCase().includes('currency') ? 'currency' : 'weapons';
+                
+                await this.showEnhancedItemBrowserPage(interaction, currentCategory, pageNum);
+            } else {
+                logger.warn(`Unknown enhanced browser selection: ${selectedValue}`);
+                await interaction.update({
+                    content: '❌ Unknown browser option.',
+                    embeds: [],
+                    components: []
+                });
+            }
+        } catch (error) {
+            logger.error('Error handling enhanced item browser selection:', error);
+            await interaction.update({
+                content: '❌ Error processing browser selection.',
+                embeds: [],
+                components: []
+            });
+        }
+    }
+
+    /**
+     * Show Amount Selection Modal - COMPREHENSIVE FIX
+     */
+    static async showAmountSelectionModal(interaction, category, itemId) {
+        try {
+            const modal = new ModalBuilder()
+                .setCustomId('amount_selection_modal')
+                .setTitle('🎯 Select Item Amount & Details');
+
+            const amountInput = new TextInputBuilder()
+                .setCustomId('item_amount')
+                .setLabel('Amount to Send (1-999)')
+                .setStyle(TextInputStyle.Short)
+                .setRequired(true)
+                .setPlaceholder('1')
+                .setMinLength(1)
+                .setMaxLength(3);
+
+            const reasonInput = new TextInputBuilder()
+                .setCustomId('send_reason')
+                .setLabel('Reason for Sending (Required for audit)')
+                .setStyle(TextInputStyle.Paragraph)
+                .setRequired(true)
+                .setPlaceholder('Beta testing, promotional campaign, bug fix compensation, etc.')
+                .setMaxLength(500);
+
+            const notesInput = new TextInputBuilder()
+                .setCustomId('send_notes')
+                .setLabel('Additional Notes (Optional)')
+                .setStyle(TextInputStyle.Paragraph)
+                .setRequired(false)
+                .setPlaceholder('Any additional information...')
+                .setMaxLength(500);
+
+            // Hidden fields to store context
+            const categoryInput = new TextInputBuilder()
+                .setCustomId('item_category')
+                .setLabel('Item Category (DO NOT MODIFY)')
+                .setStyle(TextInputStyle.Short)
+                .setRequired(true)
+                .setValue(category)
+                .setMaxLength(50);
+
+            const itemIdInput = new TextInputBuilder()
+                .setCustomId('item_id')
+                .setLabel('Item ID (DO NOT MODIFY)')
+                .setStyle(TextInputStyle.Short)
+                .setRequired(true)
+                .setValue(itemId)
+                .setMaxLength(100);
+
+            const row1 = new ActionRowBuilder().addComponents(amountInput);
+            const row2 = new ActionRowBuilder().addComponents(reasonInput);
+            const row3 = new ActionRowBuilder().addComponents(notesInput);
+            const row4 = new ActionRowBuilder().addComponents(categoryInput);
+            const row5 = new ActionRowBuilder().addComponents(itemIdInput);
+
+            modal.addComponents(row1, row2, row3, row4, row5);
+
+            await interaction.showModal(modal);
+
+        } catch (error) {
+            logger.error('Error showing amount selection modal:', error);
+            await interaction.update({
+                content: '❌ Error loading amount selection form.',
+                embeds: [],
+                components: []
+            });
+        }
+    }
+
+    /**
+     * Handle Amount Selection Modal Submission - COMPREHENSIVE FIX
+     */
+    static async handleAmountSelectionModal(interaction) {
+        try {
+            if (!this.isAuthenticated(interaction.user.id)) {
+                await interaction.reply({
+                    content: '❌ Authentication required.',
+                    ephemeral: true
+                });
+                return;
+            }
+
+            const amount = parseInt(interaction.fields.getTextInputValue('item_amount'));
+            const reason = interaction.fields.getTextInputValue('send_reason').trim();
+            const notes = interaction.fields.getTextInputValue('send_notes')?.trim() || '';
+            const category = interaction.fields.getTextInputValue('item_category').trim();
+            const itemId = interaction.fields.getTextInputValue('item_id').trim();
+
+            // Validate inputs
+            if (isNaN(amount) || amount <= 0 || amount > 999) {
+                await interaction.reply({
+                    content: '❌ Invalid amount. Must be between 1 and 999.',
+                    ephemeral: true
+                });
+                return;
+            }
+
+            if (!reason || reason.length < 5) {
+                await interaction.reply({
+                    content: '❌ Reason must be at least 5 characters long.',
+                    ephemeral: true
+                });
+                return;
+            }
+
+            // Get item data
+            let itemData;
+            try {
+                if (category === 'currency') {
+                    const currencies = [
+                        { id: 'gold', name: 'Gold', emoji: '💰', rarity: 'currency' },
+                        { id: 'tokens', name: 'Tokens', emoji: '🎫', rarity: 'currency' },
+                        { id: 'dng', name: '$DNG', emoji: '🔸', rarity: 'currency' },
+                        { id: 'hero', name: '$HERO', emoji: '🦸', rarity: 'currency' },
+                        { id: 'eth', name: '$ETH', emoji: '💎', rarity: 'currency' }
+                    ];
+                    itemData = currencies.find(c => c.id === itemId);
+                } else {
+                    const { weaponsData } = await import('../../data/weaponsData.js');
+                    itemData = weaponsData.find(item => item.id === itemId);
+                }
+
+                if (!itemData) {
+                    await interaction.reply({
+                        content: '❌ Item not found. Please try again.',
+                        ephemeral: true
+                    });
+                    return;
+                }
+            } catch (error) {
+                logger.error('Error loading item data:', error);
+                await interaction.reply({
+                    content: '❌ Error loading item data.',
+                    ephemeral: true
+                });
+                return;
+            }
+
+            // Add to send list
+            const sendListItem = {
+                itemId: itemId,
+                name: itemData.name,
+                emoji: itemData.emoji || '📦',
+                category: category,
+                amount: amount,
+                reason: reason,
+                notes: notes,
+                addedBy: interaction.user.id,
+                addedAt: new Date().toISOString()
+            };
+
+            const updatedSendList = this.addToSendList(interaction.user.id, sendListItem);
+
+            // Success response
+            await interaction.reply({
+                content: `✅ **Added to Send List**\n\n${itemData.emoji || '📦'} **${itemData.name}** x${amount}\nReason: ${reason}\n\n📋 **Send List**: ${updatedSendList.length} items\n\n*Continue adding items or review your send list.*`,
+                ephemeral: true
+            });
+
+            // Return to enhanced browser after short delay
+            setTimeout(async () => {
+                try {
+                    await this.showEnhancedItemBrowserPage(interaction, category, 0);
+                } catch (error) {
+                    logger.error('Error returning to browser:', error);
+                }
+            }, 2000);
+
+        } catch (error) {
+            logger.error('Error handling amount selection modal:', error);
+            
+            if (!interaction.replied && !interaction.deferred) {
+                try {
+                    await interaction.reply({
+                        content: '❌ Error processing amount selection. Please try again.',
+                        ephemeral: true
+                    });
+                } catch (replyError) {
+                    logger.error('Could not send error reply:', replyError.message);
+                }
+            }
+        }
+    }
+
+    /**
+     * Show Item Removal Interface - COMPREHENSIVE FIX
+     */
+    static async showItemRemovalInterface(interaction) {
+        try {
+            const embed = new EmbedBuilder()
+                .setTitle('🗑️ **ITEM REMOVAL SYSTEM** 🗑️')
+                .setDescription(
+                    '**Remove items sent by mistake**\n\n' +
+                    '⚠️ **CAUTION**: This permanently removes items from player inventories\n\n' +
+                    '**Smart Player Selection System:**\n' +
+                    '🔍 **Search by Username** - Type part of their name\n' +
+                    '🆔 **Search by User ID** - Enter Discord ID directly\n' +
+                    '🎯 **Recent Players** - Quick access to recently active players\n\n' +
+                    '**Steps:**\n' +
+                    '1. Search for the player\n' +
+                    '2. Choose items to remove\n' +
+                    '3. Confirm removal with password\n\n' +
+                    '**Use Cases:**\n' +
+                    '• Items sent to wrong player\n' +
+                    '• Duplicate promotional items\n' +
+                    '• Testing corrections\n' +
+                    '• Economy rebalancing\n\n' +
+                    '*Choose player selection method:*'
+                )
+                .setColor(0xff6600)
+                .setFooter({ text: 'Item Removal System • Master Authority Required' })
+                .setTimestamp();
+
+            const buttons = [
+                new ButtonBuilder()
+                    .setCustomId('search_player_username')
+                    .setLabel('🔍 Search by Username')
+                    .setStyle(ButtonStyle.Primary),
+                new ButtonBuilder()
+                    .setCustomId('search_player_id')
+                    .setLabel('🆔 Search by User ID')
+                    .setStyle(ButtonStyle.Secondary),
+                new ButtonBuilder()
+                    .setCustomId('show_recent_players')
+                    .setLabel('🎯 Recent Players')
+                    .setStyle(ButtonStyle.Success),
+                new ButtonBuilder()
+                    .setCustomId('back_to_streamlined_items')
+                    .setLabel('🔙 Back to Item Categories')
+                    .setStyle(ButtonStyle.Danger)
+            ];
+
+            const row = new ActionRowBuilder().addComponents(buttons);
+
+            await interaction.update({
+                embeds: [embed],
+                components: [row]
+            });
+
+        } catch (error) {
+            logger.error('Error showing item removal interface:', error);
+            await interaction.update({
+                content: '❌ Error loading item removal interface.',
+                embeds: [],
+                components: []
+            });
+        }
+    }
+
+    /**
+     * Handle Send List Management - COMPREHENSIVE FIX
+     */
+    static async handleSendListManagement(interaction, selectedValue) {
+        try {
+            if (!this.isAuthenticated(interaction.user.id)) {
+                await this.showMasterAuthentication(interaction);
+                return;
+            }
+
+            switch (selectedValue) {
+                case 'send_to_players':
+                    await this.showSendListModal(interaction);
+                    break;
+                case 'clear_send_list':
+                    this.clearSendList(interaction.user.id);
+                    await interaction.update({
+                        content: '✅ **Send List Cleared**\n\nAll items have been removed from your send list.',
+                        embeds: [],
+                        components: []
+                    });
+                    break;
+                case 'edit_send_list':
+                    await this.showStreamlinedItemOperations(interaction);
+                    break;
+                default:
+                    await interaction.update({
+                        content: '❌ Unknown send list action.',
+                        embeds: [],
+                        components: []
+                    });
+            }
+        } catch (error) {
+            logger.error('Error handling send list management:', error);
+            await interaction.update({
+                content: '❌ Error processing send list action.',
+                embeds: [],
+                components: []
+            });
+        }
+    }
+
+    /**
+     * Handle Player Selection for Removal - SCALABLE SOLUTION
+     */
+    static async handlePlayerSelectionForRemoval(interaction, selectedValue) {
+        try {
+            if (!this.isAuthenticated(interaction.user.id)) {
+                await this.showMasterAuthentication(interaction);
+                return;
+            }
+
+            const playerId = selectedValue;
+            
+            // Get player's items
+            const { ProfileDatabase } = await import('../../database/ProfileDatabase.js');
+            const profileDB = new ProfileDatabase();
+            const playerData = profileDB.getPlayerInventory(playerId);
+            
+            if (!playerData || !playerData.profileChest) {
+                await interaction.update({
+                    content: '❌ **No Items Found**\n\nThis player has no items to remove.',
+                    embeds: [],
+                    components: [new ActionRowBuilder().addComponents(
+                        new ButtonBuilder()
+                            .setCustomId('back_to_item_removal')
+                            .setLabel('🔙 Back to Player Search')
+                            .setStyle(ButtonStyle.Secondary)
+                    )]
+                });
+                return;
+            }
+
+            // Show player's items for removal
+            await this.showPlayerItemsForRemoval(interaction, playerId, playerData);
+
+        } catch (error) {
+            logger.error('Error handling player selection for removal:', error);
+            await interaction.update({
+                content: '❌ Error loading player items.',
+                embeds: [],
+                components: []
+            });
+        }
+    }
+
+    /**
+     * Show Player Items for Removal - COMPREHENSIVE INTERFACE
+     */
+    static async showPlayerItemsForRemoval(interaction, playerId, playerData) {
+        try {
+            let username = 'Unknown User';
+            try {
+                const user = await interaction.client.users.fetch(playerId);
+                username = user.username;
+            } catch (error) {
+                logger.warn(`Could not fetch user ${playerId}:`, error.message);
+            }
+
+            const chest = playerData.profileChest;
+            const totalItems = (chest.weapons?.length || 0) + 
+                             (chest.armor?.length || 0) + 
+                             (chest.consumables?.length || 0) + 
+                             (chest.promotional?.length || 0) + 
+                             (chest.special?.length || 0);
+
+            if (totalItems === 0) {
+                await interaction.update({
+                    content: `❌ **No Items to Remove**\n\n**Player**: ${username}\n**User ID**: ${playerId}\n\nThis player's Profile Chest is empty.`,
+                    embeds: [],
+                    components: [new ActionRowBuilder().addComponents(
+                        new ButtonBuilder()
+                            .setCustomId('back_to_item_removal')
+                            .setLabel('🔙 Back to Player Search')
+                            .setStyle(ButtonStyle.Secondary)
+                    )]
+                });
+                return;
+            }
+
+            const embed = new EmbedBuilder()
+                .setTitle('🗑️ **ITEM REMOVAL INTERFACE** 🗑️')
+                .setDescription(
+                    `**Target Player**: ${username}\n` +
+                    `**User ID**: ${playerId}\n` +
+                    `**Total Items**: ${totalItems}\n\n` +
+                    '**⚠️ WARNING: Item removal is permanent!**\n\n' +
+                    '**Available Items by Category:**\n' +
+                    `⚔️ **Weapons**: ${chest.weapons?.length || 0} items\n` +
+                    `🛡️ **Armor**: ${chest.armor?.length || 0} items\n` +
+                    `🧪 **Consumables**: ${chest.consumables?.length || 0} items\n` +
+                    `🎁 **Promotional**: ${chest.promotional?.length || 0} items\n` +
+                    `🗝️ **Special**: ${chest.special?.length || 0} items\n\n` +
+                    '*Select item category to remove:*'
+                )
+                .setColor(0xff0000)
+                .setFooter({ text: 'Item Removal • Permanent Action • Requires Password' })
+                .setTimestamp();
+
+            const options = [];
+            
+            if (chest.weapons?.length > 0) {
+                options.push(new StringSelectMenuOptionBuilder()
+                    .setLabel(`⚔️ Remove Weapons (${chest.weapons.length})`)
+                    .setDescription('Remove weapons from player inventory')
+                    .setValue(`remove_weapons_${playerId}`));
+            }
+            
+            if (chest.armor?.length > 0) {
+                options.push(new StringSelectMenuOptionBuilder()
+                    .setLabel(`🛡️ Remove Armor (${chest.armor.length})`)
+                    .setDescription('Remove armor from player inventory')
+                    .setValue(`remove_armor_${playerId}`));
+            }
+            
+            if (chest.consumables?.length > 0) {
+                options.push(new StringSelectMenuOptionBuilder()
+                    .setLabel(`🧪 Remove Consumables (${chest.consumables.length})`)
+                    .setDescription('Remove consumables from player inventory')
+                    .setValue(`remove_consumables_${playerId}`));
+            }
+            
+            if (chest.promotional?.length > 0) {
+                options.push(new StringSelectMenuOptionBuilder()
+                    .setLabel(`🎁 Remove Promotional (${chest.promotional.length})`)
+                    .setDescription('Remove promotional items from player inventory')
+                    .setValue(`remove_promotional_${playerId}`));
+            }
+            
+            if (chest.special?.length > 0) {
+                options.push(new StringSelectMenuOptionBuilder()
+                    .setLabel(`🗝️ Remove Special (${chest.special.length})`)
+                    .setDescription('Remove special items from player inventory')
+                    .setValue(`remove_special_${playerId}`));
+            }
+
+            options.push(new StringSelectMenuOptionBuilder()
+                .setLabel('🔙 Back to Player Search')
+                .setDescription('Search for a different player')
+                .setValue('back_to_item_removal'));
+
+            const selectMenu = new StringSelectMenuBuilder()
+                .setCustomId('player_item_removal_category')
+                .setPlaceholder('Choose item category to remove...')
+                .addOptions(options);
+
+            const row = new ActionRowBuilder().addComponents(selectMenu);
+
+            await interaction.update({
+                embeds: [embed],
+                components: [row]
+            });
+
+        } catch (error) {
+            logger.error('Error showing player items for removal:', error);
+            await interaction.update({
+                content: '❌ Error loading player items.',
+                embeds: [],
+                components: []
+            });
+        }
+    }
 } 
